@@ -23,11 +23,12 @@ fedora | libatomic
 
 ## macOS
 
-Pony can be installed as a Homebrew package.
+Prebuilt macOS packages are available via [ponyup](https://github.com/ponylang/ponyup). You can install nightly builds as well as official releases using ponyup.
+
+To install the most recent ponyc on macOS:
 
 ```bash
-brew update
-brew install ponyc
+ponyup update ponyc release
 ```
 
 ## Windows
